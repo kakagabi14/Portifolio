@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clara Martinez - Fotógrafa</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Clara Martinez</h1>
+            <nav>
+                <ul class="menu">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="trabalhos.html">Trabalhos</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h2>Capturando Momentos Especiais</h2>
+                <p class="f">Fotografia de Casamentos e Eventos</p>
+                <a href="contato.html" class="cta-button">Solicite um Orçamento</a>
+            </div>
+        </section>
+        <section class="gallery">
+            <h1>Galeria</h1>
+            <div class="image-grid">
+                <img src="eventos1 (1).jpg" alt="Exemplo 1">
+                <img src="eventos1 (2).jpg" alt="Exemplo 2">
+                <img src="eventos1 (3).jpg" alt="Exemplo 3">
+                <img src="eventos1 (4).jpg" alt="Exemplo 4">
+                <img src="eventos1 (5).jpg" alt="Exemplo 5">
+                <img src="eventos1 (6).jpg" alt="Exemplo 6">
+                <img src="eventos1 (7).jpg" alt="Exemplo 7">
+                <img src="eventos1 (8).jpg" alt="Exemplo 8">
+                <img src="eventos1 (9).jpg" alt="Exemplo 9">
+                <img src="Leonardo_Phoenix_Capture_a_heartwarming_and_vibrant_birthday_p_0.jpg" alt="Exemplo 10">
+                <img src="Leonardo_Phoenix_Create_a_warm_and_inviting_anniversary_photog_3.jpg" alt="Exemplo 11">
+                <img src="Leonardo_Phoenix_Create_a_warm_and_intimate_anniversary_photog_0.jpg" alt="Exemplo 12">
+                <img src="Leonardo_Phoenix_Create_a_warm_and_intimate_anniversary_photog_1.jpg" alt="Exemplo 13">
+                <img src="Leonardo_Phoenix_Capture_a_heartwarming_and_vibrant_birthday_p_3.jpg" alt="Exemplo 14">
+                <img src="Default_A_group_of_people_in_Africa_engaged_in_a_cultural_cele_0.jpg" alt="Exemplo 15">
+                <img src="Default_Very_beautiful_african_princess_Sekie_begging_her_moth_0.jpg" alt="Exemplo 16">
+                <img src="Leonardo_Phoenix_A_brightly_lit_modern_conference_room_filled_3.jpg" alt="Exemplo 17">
+                <img src="Leonardo_Phoenix_A_vibrant_and_dynamic_photograph_of_a_corpora_1.jpg" alt="Exemplo 18">
+                <img src="Leonardo_Phoenix_A_vibrant_and_lively_photograph_of_a_children_0.jpg" alt="Exemplo 19">
+                <img src="Leonardo_Phoenix_A_vibrant_and_dynamic_photograph_of_a_corpora_3.jpg" alt="Exemplo 20">
+            </div>
+        </section>
+        <section class="budget">
+            <h3>Solicite um Orçamento Sem Compromisso: </h3>
+            <form action="contato.php" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="data">Data do Evento:</label>
+                <input type="date" id="data" name="data" required>
+
+                <label for="tipo">Tipo de Evento:</label>
+                <select id="tipo" name="tipo" required>
+                    <option value="casamento">Casamento</option>
+                    <option value="aniversario">Aniversário</option>
+                    <option value="evento_corporativo">Evento Corporativo</option>
+                    <option value="outro">Outro</option>
+                </select>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" placeholder="Descreva seus detalhes ou perguntas..." required></textarea>
+
+                <button type="submit">Enviar Orçamento</button>
+            </form>
+        </section>
+    </main>
+    <br><br><br><br><br><br>
+    <footer>
+        <p>&copy; 2024 Clara Martinez - Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,241 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f8f4dc;
+    color: #6d6d6d;
+}
+
+.menu {
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+.about{
+    color: #6d6d6d;
+}
+
+h2{
+    text-align: center;
+    color: #6d6d6d;
+}
+
+.budget{
+    background-color: #726e59;
+}
+
+.f{
+    color:#6d6d6d
+}
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.c{
+    text-align: center;
+}
+
+.contact{
+   color: #887d3f;
+}
+
+header {
+    background: #b3a86d;
+    color: #fff;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    background: url('banner.jpg') no-repeat center center/cover;
+    height: 400px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-content h2 {
+    font-size: 2.5em;
+    margin: 0;
+    color: #887d3f;
+}
+
+.hero-content p {
+    font-size: 1.2em;
+}
+
+.cta-button {
+    background: #b3a86d;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.cta-button:hover {
+    background: #b3a86d;
+}
+
+.about{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.gallery,
+.works,
+.contact,
+.budget {
+    padding: 20px 0;
+}
+
+.image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image-grid img {
+    width: calc(25% - 20px); /* 4 colunas, espaço entre as imagens */
+    height: auto;
+    margin: 10px;
+    border: 3px solid #b3a86d;
+    border-radius: 10px; /* Bordas arredondadas */
+    transition: transform 0.3s;
+}
+
+.image-grid img:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background: #b3a86d;
+    color: white;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input,
+form textarea,
+form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    background: #b3a86d;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+form button:hover {
+    background: #b3a86d;
+}
+
+/* Estilo específico para a seção de orçamento */
+.budget {
+    padding: 20px 0;
+    background: #f7f7f7;
+}
+
+.budget h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.budget form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.budget label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.budget input,
+.budget textarea,
+.budget select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.budget button {
+    background: #b3a86d;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.budget button:hover {
+    background: #b3a86d;
+}
+
+/* Estilo específico para a seção de trabalhos */
+.works {
+    padding: 20px 0;
+}
+
+.category {
+    margin-bottom: 40px;
+}
+
+.category h3 {
+    margin-top: 20px;
+}
+
+.category p {
+    margin-bottom: 15px;
+}
